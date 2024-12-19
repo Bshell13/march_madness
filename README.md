@@ -2,6 +2,12 @@
 ### Brandon Shellenberger
 #### Last Updated: 12/19/24
 
+#### External Libraries to Install
+All the external libraries are stored in the requirements.txt file and you can use install the libraries using the .txt file. This example is used for powershell.
+'''shell
+py pip install -r requirements.txt
+'''
+
 #### API
 This is the API being used for this model:
 - https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis
