@@ -4,9 +4,9 @@
 
 #### External Libraries to Install
 All the external libraries are stored in the requirements.txt file and you can use install the libraries using the .txt file. This example is used for powershell. <br>
-''' shell
+``` shell
 py pip install -r requirements.txt
-'''
+```
 
 #### API
 This is the API being used for this model:
