@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 # Import a file to extract data from API
-
+df = pd.read_csv('data/efficiency.csv')
 # Load Data sets into DataFrame
 
 # Show shape of dataset
@@ -13,13 +13,13 @@ print(df.shape)
 print(df.dtypes)
 
 # Inspect basics stats for numerical columns
-print(df.describe()
+print(df.describe())
 
 # Detect Null Values
-if df.isnull().values.isany() == False:
+if None in df:
   print('There are zero NULL values in the dataset.')
 else:
-  print(f'There are {df.isnull().sum)} NULL values in the dataset.')
+  print(f'There are {df.isnull().sum()} NULL values in the dataset.')
 
 # Inspect value counts for categorical columns
 for col in df.select_dtypes(include=['object', 'category']).columns:
